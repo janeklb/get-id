@@ -1,0 +1,31 @@
+{
+  "name": "get-id",
+  "version": "1.0.0",
+  "description": "Get unique identifiers for your JS objects",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel -d . src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janeklb/get-id.git"
+  },
+  "keywords": [
+    "id",
+    "identifier"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janeklb/get-id/issues"
+  },
+  "homepage": "https://github.com/janeklb/get-id#readme"
+}
