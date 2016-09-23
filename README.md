@@ -1,5 +1,7 @@
 # get-id
 
+[![Build Status](https://travis-ci.org/janeklb/get-id.svg?branch=master)](https://travis-ci.org/janeklb/get-id)
+
 Keep track of your JS objects (and functions) via a unique id.
 
 Install:
