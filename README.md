@@ -3,15 +3,15 @@
 Keep track of your JS objects (and functions) via a unique id.
 
 Install:
-```
-$ npm install --save get-id
+```bash
+npm install --save get-id
 ```
 
 Usage:
-```
+```javascript
 import getid from 'get-id'
-# or:
-# var getid = require('get-id');
+// or:
+// var getid = require('get-id');
 
 var object  = {},
     object2 = {};
@@ -31,7 +31,7 @@ passed object or function under the key `__object_id__`, and then returns it.
 ### Using a custom id property name
 If for whatever reason you don't want to use the `__object_id__` key, you can
 generate a custom `getid` function using the exported `create` function:
-```
+```javascript
 import { create as create_getid } from 'get-id';
 
 const customgetid = create_getid('__this_is_a_custom_key');
